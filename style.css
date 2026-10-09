@@ -61,6 +61,14 @@ main .container {
   box-shadow: 3px 3px 5px black;
 }
 
+section {
+  border-bottom: 1px solid black;
+}
+
+section:last-child {
+  border-bottom: none;
+}
+
 img.portrait {
   width: 300px;
 }
