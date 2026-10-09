@@ -62,6 +62,8 @@ img.portrait {
 }
 
 table {
+  font-family: "Jim Nightshade", cursive;
+  font-size: 24px;
   text-align: center;
   width: 100%;
 }
