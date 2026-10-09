@@ -6,21 +6,39 @@ body {
   margin: 0;
 }
 
-/* Header */
-header {
+/* Limits the width and centers conent within sections */
+.container {
   width: 900px;
   margin: 0 auto;
+}
+
+/* Header */
+header {
+  background-color: rgb(92, 92, 134);
+  padding: 1px 0;
 }
 
 /* Main content */
 main {
+  padding: 20px 0 40px;
   background-color: rgb(179, 179, 221);
-  width: 900px;
-  margin: 0 auto;
+}
+
+main .container {
+  background-color: white;
+  padding: 16px 24px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px black;
 }
 
 /* Footer */
 footer {
-  width: 900px;
-  margin: 0 auto;
+  text-align: left;
+  padding: 1px 0;
+  background-color: black;
+  color: white;
+}
+
+footer p {
+  margin: 8px 0;
 }
