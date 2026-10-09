@@ -19,7 +19,10 @@ header {
 }
 
 h1 {
-  margin: 0 0 8px;
+  font-family: "Cinzel", serif;
+  font-size: 42px;
+  font-weight: 800;
+  margin: 0;
 }
 
 nav ul {
