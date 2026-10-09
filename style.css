@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Header */
+header {
+  width: 900px;
+  margin: 0 auto;
+}
+
+/* Main content */
+main {
+  background-color: rgb(179, 179, 221);
+  width: 900px;
+  margin: 0 auto;
+}
+
+/* Footer */
+footer {
+  width: 900px;
+  margin: 0 auto;
+}
