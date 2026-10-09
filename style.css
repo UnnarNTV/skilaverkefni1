@@ -49,6 +49,10 @@ nav a:hover {
 }
 
 /* Main content */
+h2 {
+  margin-top: 0;
+}
+
 main {
   padding: 20px 0 40px;
   background-color: rgb(179, 179, 221);
@@ -63,10 +67,15 @@ main .container {
 
 section {
   border-bottom: 1px solid black;
+  margin-bottom: 16px;
 }
 
 section:last-child {
   border-bottom: none;
+}
+
+img.about-img {
+  width: 500px;
 }
 
 img.portrait {
